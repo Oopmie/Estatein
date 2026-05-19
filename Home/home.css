@@ -1,1 +1,463 @@
-/*# sourceMappingURL=home.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: url(../Font/Urbanist-VariableFont_wght.ttf);
+}
+body {
+  font-family: "Urbanist", sans-serif;
+  background-color: #141414;
+  width: 100vw;
+}
+
+p {
+  font-size: 20px;
+  color: #999999;
+}
+
+h1 {
+  font-size: 65px;
+  color: white;
+}
+
+h2 {
+  font-size: 55px;
+  color: white;
+}
+
+h3 {
+  font-size: 28px;
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
+  color: white;
+}
+
+h5 {
+  font-size: 23px;
+  color: white;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 17px;
+  color: white;
+  font-weight: 500;
+}
+
+span {
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+  background-color: #1A1A1A;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header button {
+  padding: 17px;
+  background-color: #1A1A1A;
+  border: 1px #1A1A1A solid;
+  border-radius: 10px;
+}
+header button:first-child {
+  background-color: #141414;
+  border: 1px #262626 solid;
+}
+header .buthed {
+  background-color: #141414;
+  border: 1px #262626 solid;
+  color: white;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.section1 {
+  width: 100%;
+  height: 85vh;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: row;
+}
+.section1 .left_cont1 {
+  width: 50vw;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.section1 .left_cont1 h1 {
+  margin-bottom: 3vh;
+}
+.section1 .left_cont1 p {
+  width: 38vw;
+}
+.section1 .left_cont1 button {
+  height: 7vh;
+  padding: 20px;
+  background-color: #141414;
+  border: 1px #262626 solid;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+.section1 .left_cont1 button:last-child {
+  background-color: #703BF7;
+  border-color: #703BF7;
+  margin-left: 1.5vw;
+}
+.section1 .left_cont1 .cont1 {
+  display: flex;
+  flex-direction: row;
+}
+.section1 .left_cont1 .cont1 div {
+  width: 12vw;
+  height: 15vh;
+  background-color: #141414;
+  border: 1px #262626 solid;
+  border-radius: 10px;
+  margin-right: 2vw;
+  padding: 20px;
+}
+.section1 .left_cont1 .cont1 div p {
+  font-size: 20px;
+}
+.section1 .logo1 {
+  position: absolute;
+  width: 10vw;
+  left: 47vw;
+  top: 15vh;
+}
+
+.section2 {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section2 div {
+  background-color: #1A1A1A;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  height: 70%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section2 div p {
+  font-size: 20px;
+  color: white;
+}
+.section2 div img:first-child {
+  width: 1.2vw;
+  position: relative;
+  left: 8vw;
+}
+
+.section3 {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.section3 .cards3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section3 .cards3 .card3 {
+  width: 26vw;
+  height: 70vh;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  padding: 1.7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.section3 .cards3 .card3 .category3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section3 .cards3 .card3 .category3 div {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #1A1A1A;
+  border: 1px #262626 solid;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section3 .cards3 .card3 .but3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section3 .cards3 .card3 .but3 button {
+  width: 13vw;
+  background-color: #703BF7;
+  border-radius: 10px;
+  border: 1px;
+}
+.section3 .cards3 .card3 .but3 button a {
+  text-decoration: none;
+  color: white;
+}
+
+.line3 {
+  width: 100%;
+  height: 1px;
+  background-color: #262626;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider div {
+  display: flex;
+  flex-direction: row;
+  width: 7vw;
+  justify-content: space-between;
+}
+.slider div button {
+  width: 3vw;
+  height: 3vw;
+  border: 1px solid #262626;
+  background-color: #1A1A1A;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.slider div button:first-child {
+  background-color: #141414;
+}
+
+.star {
+  height: 4.5vh;
+  width: 5vw;
+  position: relative;
+  right: 2vw;
+}
+
+.text3 {
+  width: 100%;
+  height: 14vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+.text3 h1 {
+  margin-bottom: 3vh;
+}
+.text3 p {
+  width: 50vw;
+}
+.text3 button {
+  width: 18vw;
+  height: 7vh;
+  padding: 20px;
+  background-color: #1A1A1A;
+  border: 1px #262626 solid;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.section4 {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.section4 .cards4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section4 .cards4 .card4 {
+  width: 26vw;
+  height: 40vh;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  padding: 1.7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.section4 .cards4 .card4 .human {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.section4 .cards4 .card4 .human img {
+  margin-right: 1vw;
+}
+
+.section5 {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.section5 .cards5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section5 .cards5 .card5 {
+  width: 26vw;
+  height: 40vh;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  padding: 2.6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.section5 .cards5 .card5 button {
+  padding: 18px;
+  background-color: #1A1A1A;
+  border-radius: 6px;
+  border: 1px solid #262626;
+  color: white;
+}
+
+.section6 {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../Assets/CTA.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section6 .div6 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.section6 .div6 div {
+  width: 80%;
+}
+.section6 .div6 div h2 {
+  margin-bottom: 3vh;
+}
+.section6 .div6 div p {
+  font-size: 17px;
+  line-height: 2.5vh;
+  width: 90%;
+}
+.section6 .div6 button {
+  height: 7vh;
+  width: 13vw;
+  color: white;
+  background-color: #703BF7;
+  border-radius: 10px;
+  border: 1px;
+  font-size: 20px;
+}
+
+.section7 {
+  width: 100%;
+  height: 40vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.section7 .email {
+  cursor: pointer;
+  margin-top: 2vh;
+  width: 15vw;
+  height: 5vh;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section7 .email p {
+  width: 70%;
+}
+.section7 .email img {
+  height: 2vh;
+}
+.section7 .list {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  justify-content: space-evenly;
+}
+.section7 .list h6 {
+  margin-top: 2vh;
+}
+
+footer {
+  height: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .textf {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+}/*# sourceMappingURL=home.css.map */

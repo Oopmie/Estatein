@@ -72,13 +72,9 @@ header button {
   border: 1px #1A1A1A solid;
   border-radius: 10px;
 }
-header .buttonhed {
-  background-color: #141414;
-  border: 1px #262626 solid;
-}
 header .buthed {
-  background-color: #141414;
-  border: 1px #262626 solid;
+  background-color: #703BF7;
+  border: 1px #703BF7 solid;
   color: white;
 }
 header a {
@@ -120,153 +116,35 @@ header a {
 
 .section2 {
   width: 100%;
-  height: 140vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section2 div {
+  background-color: #1A1A1A;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  height: 70%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
-.section2 .search2 {
-  width: 100%;
-  height: 0vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.section2 div p {
+  font-size: 20px;
+  color: white;
+}
+.section2 div p a {
+  color: white;
+  margin-right: 10px;
+}
+.section2 div img:first-child {
+  width: 1.2vw;
   position: relative;
-  bottom: 13vh;
-}
-.section2 .search2 .se21 {
-  width: 80%;
-  height: 9vh;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 10px 10px 0px 0px;
-  border: 1px;
-  background-color: #141414;
-  box-shadow: 0px 0px 0px 10px rgb(38, 38, 38);
-}
-.section2 .search2 .se21 button {
-  width: 14%;
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px;
-  background-color: #703BF7;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.section2 .search2 .categories2 {
-  padding: 10px;
-  width: 100%;
-  height: 11vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 18px;
-  border: 1px;
-  background-color: #262626;
-}
-.section2 .search2 .categories2 div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-  width: 19.5%;
-  border: #262626 1px solid;
-  background-color: #141414;
-  border-radius: 15px;
-}
-.section2 .search2 .categories2 div .line2 {
-  height: 6vh;
-  width: 1px;
-  background-color: #262626;
-  padding: 0px;
-}
-.section2 .search2 .categories2 div button {
-  width: 2vw;
-  height: 2vw;
-  border-radius: 30px;
-  border: 1px solid #1A1A1A;
-  background-color: #1A1A1A;
-}
-.section2 .cards2 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.section2 .cards2 .card2 {
-  width: 26vw;
-  height: 70vh;
-  border: 1px solid #262626;
-  border-radius: 10px;
-  padding: 1.7vw;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: space-between;
-}
-.section2 .cards2 .card2 .carddiv2 {
-  padding: 15px;
-  height: 8%;
-  width: 100%;
-  border: 1px solid #262626;
-  border-radius: 30px;
-}
-.section2 .cards2 .card2 .but3 {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.section2 .cards2 .card2 .but3 button {
-  width: 13vw;
-  background-color: #703BF7;
-  border-radius: 10px;
-  border: 1px;
-}
-.section2 .cards2 .card2 .but3 button a {
-  text-decoration: none;
-  color: white;
-}
-
-.line3 {
-  width: 100%;
-  height: 1px;
-  background-color: #262626;
-}
-
-.slider {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.slider div {
-  display: flex;
-  flex-direction: row;
-  width: 7vw;
-  justify-content: space-between;
-}
-.slider div button {
-  width: 3vw;
-  height: 3vw;
-  border: 1px solid #262626;
-  background-color: #1A1A1A;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.slider div button:first-child {
-  background-color: #141414;
+  left: 8vw;
 }
 
 .section3 {
@@ -292,7 +170,7 @@ header a {
 .section3 .form3 input {
   background-color: #1A1A1A;
   border: #262626 1px solid;
-  width: 15vw;
+  width: 22vw;
   height: 6vh;
   padding: 20px;
   border-radius: 10px;
@@ -304,80 +182,20 @@ header a {
   justify-content: space-between;
   align-items: center;
 }
-.section3 .form3 .c31 .i31,
-.section3 .form3 .c32 .i31 {
-  position: absolute;
-  right: 72vw;
-  top: 270vh;
-}
 .section3 .form3 .c31 .i32,
 .section3 .form3 .c32 .i32 {
   position: absolute;
-  right: 52.4vw;
-  top: 270vh;
+  right: 39vw;
+  top: 165.5vh;
 }
 .section3 .form3 .c31 .i33,
 .section3 .form3 .c32 .i33 {
   position: absolute;
-  right: 32.8vw;
-  top: 270vh;
-}
-.section3 .form3 .c31 .i34,
-.section3 .form3 .c32 .i34 {
-  position: absolute;
   right: 13.2vw;
-  top: 270vh;
-}
-.section3 .form3 .i35 {
-  position: absolute;
-  right: 52.4vw;
-  top: 283.6vh;
+  top: 165.5vh;
 }
 .section3 .form3 h5 {
   margin-bottom: 1vh;
-}
-.section3 .form3 .c33 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.section3 .form3 .c33 input {
-  width: 34.6vw;
-}
-.section3 .form3 .c33 .ph3 {
-  width: 47%;
-}
-.section3 .form3 .c33 .ph3 .phone3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.section3 .form3 .c33 .ph3 .phone3 div {
-  border: #262626 1px solid;
-  border-radius: 10px;
-  padding: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 44%;
-  height: 6vh;
-  background-color: #1A1A1A;
-}
-.section3 .form3 .c33 .ph3 .phone3 div .crug {
-  width: 1vw;
-  padding: 0px;
-  height: 1vw;
-  background-color: #703BF7;
-}
-.section3 .form3 .c33 .ph3 .phone3 div .crug0 {
-  width: 1vw;
-  padding: 0px;
-  height: 1vw;
-  border: #703BF7 1px solid;
-  border-radius: 40px;
 }
 .section3 .form3 .c34 div {
   width: 100%;
@@ -410,6 +228,120 @@ header a {
   background-color: #703BF7;
   color: white;
   border-radius: 10px;
+}
+
+.section4 {
+  width: 100%;
+  height: 140vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.section4 .categ3 {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  padding: 20px;
+}
+.section4 .categ3 button {
+  padding: 10px;
+  width: 30%;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  color: white;
+  border: #262626 1px solid;
+}
+.section4 .categ3 button:first-child {
+  background-color: #141414;
+}
+.section4 .card444 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section4 .card444 .card441 {
+  padding: 40px;
+  height: 100%;
+  width: 49%;
+  border-radius: 10px;
+  border: #262626 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section4 .card444 .card441 .card442 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.section4 .card444 .card441 .card442 div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  height: 6vh;
+  border-radius: 30px;
+  background-color: #1A1A1A;
+  border: #262626 1px solid;
+}
+.section4 .card444 .card441 .card442 div img {
+  height: 1.8vh;
+}
+.section4 .card444 .card441 button {
+  height: 6vh;
+  border-radius: 10px;
+  background-color: #703BF7;
+  border: #703BF7 1px solid;
+  color: white;
+}
+
+.section5 {
+  width: 100%;
+  height: 110vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section5 .card551 {
+  background-image: url(../Assets/Gallery.png);
+  width: 100%;
+  height: 105%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+}
+.section5 .card551 img {
+  width: 49.5%;
+}
+.section5 .card551 .text3 {
+  width: 49%;
+}
+.section5 .card551 .text3 .star {
+  width: 6vw;
+}
+.section5 .card551 .top5, .section5 .card551 .bot5, .section5 .card551 .center5 {
+  display: flex;
+  justify-content: space-between;
+}
+.section5 .card551 .cho {
+  width: 37vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section6 {
@@ -508,4 +440,4 @@ footer .textf {
   flex-direction: row;
   width: 30%;
   justify-content: space-between;
-}/*# sourceMappingURL=properties.css.map */
+}/*# sourceMappingURL=contact_us.css.map */
